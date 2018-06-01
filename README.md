@@ -13,7 +13,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ####  Photo's of working space
 
-![](/src/assets/client-photos/coffee-counter-area.jpg "Coffee Counter Area" )
+<img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
+<img src="/src/assets/client-photos/front-entrance-looking-out.jpg" height="200">
+<img src="/src/assets/client-photos/front-entrance.jpg" height="200">
+<img src="/src/assets/client-photos/one-meeting-area.jpg" height="200">
+<img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
+<img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
+
+
 
 * Idea's:
   * Animate Logo
