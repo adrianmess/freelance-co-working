@@ -21,8 +21,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
 <img src="/src/assets/client-photos/one-meeting-area.jpg" height="200">
 <img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
-
 <div>
+
+#### Client Logo
+
+<img src="/src/assets/client-photos/logo/love-logo-text-black.png" height="75">
+<img src="/src/assets/client-photos/logo/love-child-social-logo-black.png" height="75">
+<img src="/src/assets/client-photos/logo/love-group-logo-white.png" height="75" background-color="black">
+<img src="/src/assets/client-photos/logo/love-child-social-logo-white.png" height="75" background-color="black">
 
 
 * Idea's:
