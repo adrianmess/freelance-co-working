@@ -12,9 +12,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * "It should also be easy to see what amenities we have. We have an on-site coffee counter, both communal working areas and private offices, high-speed internet, printing and faxing services, and we usually have a fun, optional activity on Thursday afternoons. Like yoga, maybe a fun complementary food, or like...I don't know, a craft or something?"
 
 ####  Photo's of working space
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"><style>
 
-<style>
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
