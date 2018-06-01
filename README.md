@@ -12,33 +12,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * "It should also be easy to see what amenities we have. We have an on-site coffee counter, both communal working areas and private offices, high-speed internet, printing and faxing services, and we usually have a fun, optional activity on Thursday afternoons. Like yoga, maybe a fun complementary food, or like...I don't know, a craft or something?"
 
 ####  Photo's of working space
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"><style>
-<!-- 
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 45px;
-} -->
 
-.flex-container {
-  display: flex;
-}
-<!-- @media (max-width: 767px) {
-	.markdown-body {
-		padding: 15px;
-	}
-} -->
-</style>
 
 <div class="flex-container">
 <img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
 <img src="/src/assets/client-photos/front-entrance-looking-out.jpg" height="200">
 <img src="/src/assets/client-photos/front-entrance.jpg" height="200">
+<img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
 <img src="/src/assets/client-photos/one-meeting-area.jpg" height="200">
 <img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
-<img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
+
 <div>
 
 
@@ -70,3 +53,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"><style>
+<!--
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+} -->
+
+.flex-container {
+  display: flex;
+}
+<!-- @media (max-width: 767px) {
+	.markdown-body {
+		padding: 15px;
+	}
+} -->
+</style>
