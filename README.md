@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ####  Photo's of working space
 
-![](/src/assets/client-photos/coffee-counter-area.jpg width="48" "Coffee Counter Area" )
+![](/src/assets/client-photos/coffee-counter-area.jpg "Coffee Counter Area" )
 
 * Idea's:
   * Animate Logo
