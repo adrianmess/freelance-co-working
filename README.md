@@ -39,7 +39,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <br>
 <br>
 
-####Client Colors
+#### Client Colors
 * <strong><span style="color:green;"> Green </span></strong>
   * Physical Effects
     * What happens to your body in the presence of green? Your pituitary gland is stimulated. Your muscles are more relaxed, and your blood histamine levels increase, which leads to a decrease in allergy symptoms and dilated blood vessels, aiding in smoother muscle contractions. In short, green is calming, stress-relieving, and – a bit paradoxically – invigorating. It’s been shown to improve reading ability and creativity.
