@@ -1,4 +1,4 @@
-# FreelanceCoWorking
+# Freelance Co-Working
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -40,7 +40,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <br>
 
 ####Client Colors
-* Green
+* <strong><span style="color:green;"> Green </span></strong>
   * Physical Effects
     * What happens to your body in the presence of green? Your pituitary gland is stimulated. Your muscles are more relaxed, and your blood histamine levels increase, which leads to a decrease in allergy symptoms and dilated blood vessels, aiding in smoother muscle contractions. In short, green is calming, stress-relieving, and – a bit paradoxically – invigorating. It’s been shown to improve reading ability and creativity.
   * Symbolism
@@ -52,15 +52,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     * Envy and greed.
 
 
-* Pink / Salmon - love
+* <strong><span style="color:pink;">Pink / Salmon - love</span></strong>
   *  Pink is the color of happiness and is sometimes seen as lighthearted.
   *  Stimulates energy and can increase the blood pressure, respiration, heartbeat, and pulse rate.
   *  Encourage action and confidence. Reduction in erratic behavior.
 
 #### Possible Colors
-  * Gold (for luxurious)
+  * <strong><span style="color:gold;">Gold (for luxurious)</span></strong>
     * Green correlates with growth, wealth, and cash, gold with building a fortune, abundance, and positive feelings, and red is a color of success, strength, and good luck.
-  * Silver
+  * <strong><span style="color:silver;">Silver</span></strong>
     * the metallic refined, distinguished color of riches, has cool properties like gray, but is more fun, lively, and playful. The color silver is associated with meanings of industrial, sleek, high-tech, and modern, as well as ornate, glamourous, graceful, sophisticated, and elegant.
     * affects the mind and body as a conductor and communicator that aids in public speaking and eloquence. Silver is believed to draw negative energy out of the body and replace it with positive energy.
     * Where gold is masculine, silver is considered as feminine energy.
@@ -78,9 +78,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
       * animation during mouse hover or after mouse click
 
 
-## Sketch
+## Sketch <a>A wild sketch appears!</a>
 
-
+<img src="src/assets/sketches/phone-sketch.jpeg" height="400"/>
 
 ## Development server
 
