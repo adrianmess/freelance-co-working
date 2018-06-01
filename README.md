@@ -14,31 +14,32 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ####  Photo's of working space
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css">
 <style>
-  .markdown-body {
-  	box-sizing: border-box;
-  	min-width: 200px;
-  	max-width: 980px;
-  	margin: 0 auto;
-  	padding: 45px;
-  }
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
   .flex-container {
     display: flex;
   }
-  @media (max-width: 767px) {
-  	.markdown-body {
-  		padding: 15px;
-  	}
-  }
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
 </style>
 
 <div class="flex-container">
 <img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
 <img src="/src/assets/client-photos/front-entrance-looking-out.jpg" height="200">
 <img src="/src/assets/client-photos/front-entrance.jpg" height="200">
-<img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
 <img src="/src/assets/client-photos/one-meeting-area.jpg" height="200">
 <img src="/src/assets/client-photos/coffee-counter-area.jpg" height="200">
-
+<img src="/src/assets/client-photos/communal-workspace.jpg" height="200">
 <div>
 
 
