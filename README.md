@@ -15,6 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css">
 
 <style>
+
 <!-- .markdown-body {
 	box-sizing: border-box;
 	min-width: 200px;
@@ -32,6 +33,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 		padding: 15px;
 	}
 }
+
 </style>
 
 <div class="flex-container">
