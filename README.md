@@ -30,7 +30,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="/src/assets/client-photos/logo/love-group-logo-white.png" height="75" style="background-color:#f6a294;">
 <img src="/src/assets/client-photos/logo/love-child-social-logo-white.png" height="75" style="background-color:#f6a294;">
 <br>
-
+<br>
+<br>
+<br>
 <img src="/src/assets/client-photos/logo/1heart.png">
 <img src="/src/assets/client-photos/logo/2hearts.png">
 <img src="/src/assets/client-photos/logo/3hearts.png">
