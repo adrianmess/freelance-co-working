@@ -57,13 +57,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   *  Stimulates energy and can increase the blood pressure, respiration, heartbeat, and pulse rate.
   *  Encourage action and confidence. Reduction in erratic behavior.
 
+#### Possible Colors
+  * Gold (for luxurious)
+    * Green correlates with growth, wealth, and cash, gold with building a fortune, abundance, and positive feelings, and red is a color of success, strength, and good luck.
+  * Silver
+    * the metallic refined, distinguished color of riches, has cool properties like gray, but is more fun, lively, and playful. The color silver is associated with meanings of industrial, sleek, high-tech, and modern, as well as ornate, glamourous, graceful, sophisticated, and elegant.
+    * affects the mind and body as a conductor and communicator that aids in public speaking and eloquence. Silver is believed to draw negative energy out of the body and replace it with positive energy.
+    * Where gold is masculine, silver is considered as feminine energy.
+  * Metallic
 
 <br>
 <br>
 <br>
 
 #### Ideas:
-  * Animate Logo
+  * Animate heart Logo
+    * Animated with toroidal effect, heart spinning around it's center.
+  * Animate Grow link
+    * Animate with growing tree - symbolizes growth, goes with flexibility of yoga, and fits with green theme
+      * animation during mouse hover or after mouse click
+
+
+## Sketch
 
 
 
