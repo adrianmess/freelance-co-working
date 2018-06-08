@@ -14,13 +14,16 @@
   padding: 7px 2.5px 7px 2.5px ;
 }
 
+// -------------Tour With US POP UP------------
+
+// --------------------------------------------------
 
 #carousel-section {
 
 }
 
-#amenities-preview {
-
+#amenities-section{
+display: block;
 }
 
 #amenities-preview {
@@ -47,3 +50,39 @@
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
 }
+
+// -------------Plans Section---------------
+#plans-preview-section {
+
+  margin-top: 200px;
+  display: block;
+}
+h3 {
+  text-align: center;
+}
+.plans-preview {
+  width: 300px;
+  height: 145px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: gray;
+  border-radius: 8px;
+  margin: 10px auto;
+
+}
+
+.plans-preview-text{
+
+}
+
+.plans-preview-icons {
+  width: 84px;
+  height: 84px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: gray;
+  border-radius: 8px;
+}
+
+
+// ------------------------------------------------
