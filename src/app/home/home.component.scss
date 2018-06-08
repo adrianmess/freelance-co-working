@@ -13,3 +13,37 @@
   border-width: 1px;
   padding: 7px 2.5px 7px 2.5px ;
 }
+
+
+#carousel-section {
+
+}
+
+#amenities-preview {
+
+}
+
+#amenities-preview {
+  width: 220px;
+  height: 124px;
+  margin-right: 18px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.preview-icons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  line-height: 10px;
+  border-top: 1px solid white;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+}
