@@ -9,11 +9,13 @@
 }
 
 .tour-button-border {
+// border: 7px 2.5px 7px 2.5px
   border-style: solid;
   border-color: #979797;
   border-width: 1px;
   padding: 7px 2.5px 7px 2.5px ;
-
+  // border: 7px 2.5px 7px 2.5px ;
+  max-width: 159px;
 }
 
 // -------------Tour With US POP UP------------
@@ -89,3 +91,32 @@ h3 {
 
 
 // ------------------------------------------------
+// #home-container {
+//   display:grid;
+//   grid-template-columns: (9, 1fr);
+//   // grid-column-gap: 16px;
+//   //   grid-auto-rows: minmax(100px, auto);
+//     grid-template-areas:
+//     ". . . . row0 . . . . "
+//     ". . . . row1 row1 . . . "
+//     ". . . row2 row2 . . . "
+//     ". . . row3 row3 row3 . . . ";
+//
+//     // margin-left: 75px;
+// }
+// .tour-button-border{
+//   grid-area: row0;
+//
+// }
+//
+#carousel-section {
+  grid-area: row1;
+  max-width: 60%;
+  margin: 0;
+}
+// #plans-preview-section {
+//   grid-area: row2;
+// }
+// # {
+//   grid-area: row5;
+// }
