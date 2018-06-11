@@ -1,3 +1,20 @@
+@import "../header/header.component.scss";
+@mixin flex-plan-preview {
+  .plans-preview{
+    display: flex;
+    // justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .plans-preview-icons {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
 
 #tour-button {
   border-style: solid;
@@ -9,7 +26,7 @@
 }
 
 .tour-button-border {
-// border: 7px 2.5px 7px 2.5px
+  // border: 7px 2.5px 7px 2.5px
   border-style: solid;
   border-color: #979797;
   border-width: 1px;
@@ -29,20 +46,23 @@
 
 
 #amenities-preview {
-  width: 220px;
-  height: auto;
-  margin-right: 18px;
-  margin-top: 20px;
-  position: relative;
+  // background-image: url(../../assets/images/amenities-preview.png);
+  width: auto;
+  height: 180px;
+  // margin-right: 18px;
+  // margin-top: 20px;
+  // position: relative;
   text-align: center;
   color: white;
 
 }
 
 .preview-icons{
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  display: flex;
+  justify-content: flex-start;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
   transform: translate(-50%, -50%);
 
   line-height: 10px;
@@ -50,20 +70,21 @@
   padding-top: 10px;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
+
 }
 
 // -------------Plans Section---------------
-#plans-preview-section {
- max-width: 20%;
+#plans-preview-container {
+  @include flex-plan-preview;
+  max-width: auto;
   // margin-top: 200px;
   display: block;
 
 }
-h3 {
+#plans-preview-section h3 {
+  max-width: auto;
   text-align: center;
-  max-width: 10%;
+
 }
 .plans-preview {
   width: 300px;
@@ -76,9 +97,6 @@ h3 {
 
 }
 
-.plans-preview-text{
-
-}
 
 .plans-preview-icons {
   width: 84px;
@@ -89,7 +107,29 @@ h3 {
   border-radius: 8px;
 }
 
+#day-plan-preview{
 
+
+  color: white;
+  z-index: 0;
+  position: relative;
+}
+
+.background {
+  // position:absolute;
+  // top:0;
+  // left:0;
+  // right:0;
+  // bottom:0;
+  // background-color:red;
+  // background-image: url(../../assets/images/plans-preview/mirrors-green.png);
+  // filter: blur(3px);
+  z-index:-1;
+}
+.plans-preview-text {
+  opacity: 100;
+  z-index: 10;
+}
 // ------------------------------------------------
 #home-container {
   display: flex;
@@ -102,7 +142,7 @@ h3 {
 
 .tour-button-border{
 
-// display: block;
+  // display: block;
 
   width: 159px;
   z-index: 0
@@ -114,7 +154,7 @@ h3 {
 
 }
 #carousel-section {
-display: block;
+  display: block;
   max-width: 80%;
 
 }
@@ -123,6 +163,25 @@ display: block;
 
 }
 
+#home-container:last-of-type {
+  margin-bottom: 10%;
+}
+
 #home-container > div, .tour-button-border {
- margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width:500px) {
+  #carousel-section {
+    max-width: 411px;
+
+  }
+
+}
+
+@media only screen and (min-width:800px) {
+  #carousel-section {
+    max-width: 700px;
+  }
+
 }
