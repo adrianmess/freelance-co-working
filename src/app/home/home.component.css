@@ -10,6 +10,9 @@
   border-width: 1px;
   padding: 7px 2.5px 7px 2.5px; }
 
+#tour-with-us {
+  visibility: hidden; }
+
 #amenities-section {
   display: block; }
 
