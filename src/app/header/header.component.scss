@@ -1,9 +1,14 @@
 @import "hamburger.scss";
 
 .container {
-  width: 700px;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
+  height: auto;
 }
 
 button {
@@ -15,9 +20,10 @@ top: 25px;
 #header {
   background-image: url(../../assets/images/header-img.png);
   background-repeat: no-repeat;
-  width: 120%;
+  width: 400px;
   height: 100px;
-  position: relative;
+  margin: 5px auto 20px auto;
+  // position: relative;
 }
 
 #dropdown  {

@@ -32,13 +32,13 @@ a:hover {
 #menuToggle {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
   z-index: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  left: 350px;
+  top: 25px; }
 
 #menuToggle input {
   display: block;
@@ -52,9 +52,7 @@ a:hover {
   /* hide this */
   z-index: 2;
   /* and place it over the hamburger */
-  -webkit-touch-callout: none;
-  left: 350px;
-  top: 25px; }
+  -webkit-touch-callout: none; }
 
 /*
  * Just a quick hamburger
@@ -75,9 +73,7 @@ a:hover {
   transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  left: 350px;
-  top: 25px; }
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
 #menuToggle span:first-child {
   -webkit-transform-origin: 0% 0%;
@@ -123,11 +119,11 @@ a:hover {
  */
 #menu {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  width: 200px;
+  margin: -100px 0 0 -200px;
   padding: 50px;
   padding-top: 125px;
-  background: #ededed;
+  background: rgba(255, 255, 255, 0.7);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -144,8 +140,8 @@ a:hover {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
 
 #menu li {
-  padding: 10px 0;
-  font-size: 22px; }
+  padding: 5px 0;
+  font-size: 12px; }
 
 /*
  * And let's slide it in from the left
@@ -157,7 +153,22 @@ a:hover {
   transform: none; }
 
 .container {
-  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
   height: auto; }
 
 button {
@@ -168,9 +179,9 @@ button {
 #header {
   background-image: url(../../assets/images/header-img.png);
   background-repeat: no-repeat;
-  width: 120%;
+  width: 400px;
   height: 100px;
-  position: relative; }
+  margin: 5px auto 20px auto; }
 
 #dropdown {
   display: none; }

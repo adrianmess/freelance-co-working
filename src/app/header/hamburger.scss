@@ -39,13 +39,16 @@ a:hover
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  // top: 50px;
+  // left: 50px;
 
   z-index: 1;
 
   -webkit-user-select: none;
   user-select: none;
+
+  left: 350px;
+  top: 25px;
 }
 
 #menuToggle input
@@ -65,9 +68,6 @@ a:hover
 
   -webkit-touch-callout: none;
 
-// MUST BE SAME AS #menuToggle span
-  left: 350px;
-  top: 25px;
 }
 
 /*
@@ -92,9 +92,7 @@ a:hover
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
-// MUST BE SAME AS #menuToggle input
-              left: 350px;
-              top: 25px;
+
 }
 
 #menuToggle span:first-child
@@ -144,12 +142,12 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  width: 200px;
+  margin: -100px 0 0 -200px;
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: rgba(255,255,255, .7);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -163,8 +161,8 @@ a:hover
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 5px 0;
+  font-size: 12px;
 }
 
 /*
