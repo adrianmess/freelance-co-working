@@ -309,11 +309,6 @@ button {
 .preview-icons {
   display: block; }
 
-#carousel-section img {
-  display: block;
-  min-height: 500px;
-  max-height: 500px; }
-
 #home-container:last-of-type {
   margin-bottom: 10%; }
 
@@ -322,8 +317,8 @@ button {
 
 @media only screen and (max-width: 500px) {
   .img-fluid {
-    min-width: 100%;
-    max-width: 100%;
+    min-width: 90%;
+    max-width: 90%;
     background: no-repeat scroll center top transparent; } }
 
 @media only screen and (min-width: 500px) {
@@ -331,7 +326,7 @@ button {
     max-height: 600px; }
   .img-fluid {
     max-height: 500px;
-    min-width: 100%; } }
+    min-width: 90%; } }
 
 @media only screen and (min-width: 800px) {
   #carousel-section {
