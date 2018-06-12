@@ -1,4 +1,6 @@
 #footer {
+  display: flex;
+  display:inline-block;
   background-color: #D2E0DB;
   background-repeat: no-repeat;
   width: 100%;
@@ -6,4 +8,17 @@
   position:fixed;
    bottom: 0;
    display: block;
+}
+
+@mixin social-icon {
+  height: 40px;
+  width: 40px;
+}
+
+#footer-images {
+  width: 90px;
+}
+
+img{
+  @include social-icon;
 }
