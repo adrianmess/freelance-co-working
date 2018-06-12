@@ -10,6 +10,7 @@ import { PlansComponent } from './plans/plans.component';
 import { AboutComponent } from './about/about.component';
 import { StourComponent } from './stour/stour.component';
 import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LoginComponent } from './login/login.component';
     PlansComponent,
     AboutComponent,
     StourComponent,
-    LoginComponent
+    LoginComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
