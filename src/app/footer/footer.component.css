@@ -9,7 +9,8 @@
   height: 100px;
   position: fixed;
   bottom: 0;
-  display: block; }
+  display: block;
+  z-index: 100; }
 
 #footer-images {
   width: 90px; }
