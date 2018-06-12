@@ -5,28 +5,32 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PlansComponent } from './plans/plans.component';
 import { LoginComponent } from './login/login.component';
-
+import { StourComponent } from './stour/stour.component';
 const appRoutes: Routes = [
   {
-      path: '',
-      component: HomeComponent
-    },
-    {
-        path: 'about',
-        component: AboutComponent
-      },
-      {
-          path: 'contact',
-          component: AboutComponent
-        },
-        {
-            path: 'plans',
-            component: AboutComponent
-          },
-          {
-              path: 'login',
-              component: LoginComponent
-            }
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: 'contact',
+    component: AboutComponent
+  },
+  {
+    path: 'plans',
+    component: AboutComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'stour',
+    component: StourComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
