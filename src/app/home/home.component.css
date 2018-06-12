@@ -238,7 +238,6 @@ button {
     padding-top: 10px; }
 
 #plans-preview-section h3 {
-  max-width: auto;
   text-align: center; }
 
 .plans-preview {
@@ -316,13 +315,14 @@ button {
 .preview-icons {
   display: block; }
 
-#carousel-section {
+#carousel-section img {
   display: block;
-  max-width: 80%; }
+  min-height: 500px;
+  max-height: 500px; }
 
-#plans-preview-section {
-  display: block;
-  margin-top: 5%; }
+#plans-preview-section h3 {
+  margin-top: 20px;
+  text-align: center; }
 
 #home-container:last-of-type {
   margin-bottom: 10%; }
@@ -332,8 +332,8 @@ button {
 
 @media only screen and (min-width: 500px) {
   #carousel-section {
-    max-width: 411px; } }
+    max-height: 400px; } }
 
 @media only screen and (min-width: 800px) {
   #carousel-section {
-    max-width: 700px; } }
+    max-height: 600px; } }
