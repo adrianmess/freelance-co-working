@@ -176,13 +176,6 @@ button {
   left: 350px;
   top: 25px; }
 
-#header {
-  background-image: url(../../assets/images/header-img.png);
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 100px;
-  margin: 5px auto 20px auto; }
-
 #dropdown {
   display: none; }
   #dropdown li {
@@ -237,7 +230,8 @@ button {
     text-align: center;
     padding-top: 10px; }
 
-#plans-preview-section h3 {
+#plans-h3 {
+  margin-top: 40px;
   text-align: center; }
 
 .plans-preview {
@@ -320,19 +314,24 @@ button {
   min-height: 500px;
   max-height: 500px; }
 
-#plans-preview-section h3 {
-  margin-top: 20px;
-  text-align: center; }
-
 #home-container:last-of-type {
   margin-bottom: 10%; }
 
 #home-container > div, .tour-button-border {
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 500px) {
+  .img-fluid {
+    min-width: 100%;
+    max-width: 100%;
+    background: no-repeat scroll center top transparent; } }
+
 @media only screen and (min-width: 500px) {
   #carousel-section {
-    max-height: 400px; } }
+    max-height: 600px; }
+  .img-fluid {
+    max-height: 500px;
+    min-width: 100%; } }
 
 @media only screen and (min-width: 800px) {
   #carousel-section {

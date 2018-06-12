@@ -75,11 +75,14 @@
   display: block;
 
 }
-#plans-preview-section h3 {
-  // max-width: auto;
-  text-align: center;
 
+#plans-h3 {
+margin-top: 40px;
+text-align: center;
+  // max-width: auto;
+  // text-align: center;
 }
+
 .plans-preview {
   width: 300px;
   height: 145px;
@@ -177,11 +180,6 @@
   min-height: 500px;
   max-height: 500px;
 }
-#plans-preview-section h3 {
-  // display: block;
-  margin-top: 20px;
-  text-align: center;
-}
 
 #home-container:last-of-type {
   margin-bottom: 10%;
@@ -191,10 +189,27 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width:500px) {
+  #carousel-section {
+    // min-height: 400px;
+    // max-height: 600px;
+
+  }
+  .img-fluid {
+    // height: 400px;
+    min-width: 100%;
+    max-width: 100%;
+    background: no-repeat scroll center top transparent;
+  }
+}
 @media only screen and (min-width:500px) {
   #carousel-section {
     // min-height: 400px;
-    max-height: 400px;
+    max-height: 600px;
+  }
+  .img-fluid {
+    max-height: 500px;
+    min-width: 100%;
   }
 }
 
