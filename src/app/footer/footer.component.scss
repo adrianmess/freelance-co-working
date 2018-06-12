@@ -18,8 +18,18 @@
 
 #footer-images {
   width: 90px;
+  float: left;
+  margin-right: 6rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
 img{
   @include social-icon;
+}
+
+#contact-info p {
+  line-height: .1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }

@@ -13,8 +13,17 @@
   z-index: 100; }
 
 #footer-images {
-  width: 90px; }
+  width: 90px;
+  float: left;
+  margin-right: 6rem;
+  margin-top: 2rem;
+  margin-left: 2rem; }
 
 img {
   height: 40px;
   width: 40px; }
+
+#contact-info p {
+  line-height: .1rem;
+  margin-top: 2rem;
+  margin-left: 2rem; }

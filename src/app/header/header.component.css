@@ -176,15 +176,16 @@ button {
   left: 350px;
   top: 25px; }
 
-#header {
-  background-image: url(../../assets/images/header-img.png);
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 100px;
-  margin: 5px auto 20px auto; }
-
 #dropdown {
   display: none; }
   #dropdown li {
     list-style-type: none;
     text-transform: uppercase; }
+
+@media only screen and (min-width: 500px) {
+  #header {
+    background-image: url(../../assets/images/header-img.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 120px;
+    margin: 5px auto 20px auto; } }
