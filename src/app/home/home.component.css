@@ -212,21 +212,10 @@ button {
   text-align: center;
   color: white; }
 
-.preview-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  line-height: 10px;
-  border-top: 1px solid white;
-  padding-top: 10px;
-  border-bottom: 1px solid white;
-  padding-bottom: 10px; }
+#amenities-preview a {
+  background-color: white;
+  width: 100%;
+  height: 100%; }
 
 #plans-preview-container {
   max-width: auto;
@@ -267,19 +256,42 @@ button {
   border-style: solid;
   border-width: .5px;
   border-color: gray;
-  border-radius: 8px; }
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1); }
 
 #day-plan-preview {
+  background-image: url(../../assets/images/plans-preview/mirrors-green.png);
   color: white;
-  z-index: 0;
-  position: relative; }
+  z-index: 0; }
 
-.background {
-  z-index: -1; }
+#week-plan-preview {
+  background-image: url(../../assets/images/plans-preview/images-2.jpg);
+  color: white;
+  z-index: 0; }
+
+#month-plan-preview {
+  background-image: url(../../assets/images/plans-preview/entrance.jpg);
+  background-size: 100%;
+  color: white;
+  z-index: 0; }
 
 .plans-preview-text {
   opacity: 100;
-  z-index: 10; }
+  z-index: 10;
+  width: 84px;
+  height: 84px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: gray;
+  border-radius: 8px;
+  padding-top: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center; }
 
 #home-container {
   display: -webkit-box;
@@ -309,7 +321,8 @@ button {
   max-width: 80%; }
 
 #plans-preview-section {
-  display: block; }
+  display: block;
+  margin-top: 5%; }
 
 #home-container:last-of-type {
   margin-bottom: 10%; }

@@ -13,6 +13,10 @@
     font-weight: bolder;
     text-align: center;
     padding-top: 10px;
+    // background-image: url(../../assets/images/plans-preview/motion_cube.gif);
+    //  background-repeat: no-repeat;
+    //  background-attachment: fixed;
+    // background-position: center;
   }
 }
 
@@ -56,22 +60,27 @@
   color: white;
 
 }
-
-.preview-icons{
-  display: flex;
-  justify-content: flex-start;
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  transform: translate(-50%, -50%);
-
-  line-height: 10px;
-  border-top: 1px solid white;
-  padding-top: 10px;
-  border-bottom: 1px solid white;
-  padding-bottom: 10px;
-
+#amenities-preview a {
+  background-color: white;
+  width: 100%;
+  height: 100%;
 }
+
+// .preview-icons{
+//   display: flex;
+//   justify-content: flex-start;
+//   // position: absolute;
+//   // top: 50%;
+//   // left: 50%;
+//   transform: translate(-50%, -50%);
+//
+//   line-height: 10px;
+//   border-top: 1px solid white;
+//   padding-top: 10px;
+//   border-bottom: 1px solid white;
+//   padding-bottom: 10px;
+//  background-image: url();
+// }
 
 // -------------Plans Section---------------
 #plans-preview-container {
@@ -105,30 +114,55 @@
   border-width: .5px;
   border-color: gray;
   border-radius: 8px;
+  background-color: rgba(255,255,255,0.1);
+  // background-image: url(../../assets/images/plans-preview/motion_cube.gif);
+   // background-repeat: no-repeat;
+   // background-attachment: fixed;
+  // background-position: center;
+  // background-size: 100%;
+
 }
 
 #day-plan-preview{
-
-
+  background-image: url(../../assets/images/plans-preview/mirrors-green.png) ;
+  // opacity: .9;
+  // filter:blur(1px);
   color: white;
   z-index: 0;
-  position: relative;
 }
 
-.background {
-  // position:absolute;
-  // top:0;
-  // left:0;
-  // right:0;
-  // bottom:0;
-  // background-color:red;
-  // background-image: url(../../assets/images/plans-preview/mirrors-green.png);
-  // filter: blur(3px);
-  z-index:-1;
+#week-plan-preview{
+  background-image: url(../../assets/images/plans-preview/images-2.jpg) ;
+  // opacity: .9;
+  // filter:blur(1px);
+  color: white;
+  z-index: 0;
 }
+
+
+#month-plan-preview{
+  background-image: url(../../assets/images/plans-preview/entrance.jpg) ;
+  background-size: 100%;
+  // opacity: .9;
+  // filter:blur(1px);
+  color: white;
+  z-index: 0;
+}
+
 .plans-preview-text {
   opacity: 100;
   z-index: 10;
+  width: 84px;
+  height: 84px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: gray;
+  border-radius: 8px;
+  padding-top: 20px;
+  background-color: rgba(255,255,255,0.1);
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 // ------------------------------------------------
 #home-container {
@@ -160,7 +194,7 @@
 }
 #plans-preview-section {
   display: block;
-
+  margin-top: 5%;
 }
 
 #home-container:last-of-type {
@@ -174,9 +208,7 @@
 @media only screen and (min-width:500px) {
   #carousel-section {
     max-width: 411px;
-
   }
-
 }
 
 @media only screen and (min-width:800px) {
