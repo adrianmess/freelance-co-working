@@ -1,0 +1,23 @@
+#tour-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#tour-subcontainer {
+  align-self: center;
+}
+
+.submit-button {
+  align-self: flex-start;
+}
+
+#tour-subcontainer h3{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p span {
+  color: red;
+}
