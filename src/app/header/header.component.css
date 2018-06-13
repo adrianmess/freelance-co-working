@@ -37,3 +37,11 @@
   z-index: 100;
   top: .08rem;
   margin-left: 5%; }
+
+#header-label h3 {
+  margin-top: .5rem;
+  font-weight: 300; }
+
+#header-label p {
+  font-size: .8rem;
+  font-weight: 300; }
