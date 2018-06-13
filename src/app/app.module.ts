@@ -12,6 +12,7 @@ import { StourComponent } from './stour/stour.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 import { AmenitiesComponent } from './amenities/amenities.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { AmenitiesComponent } from './amenities/amenities.component';
     StourComponent,
     LoginComponent,
     ContactComponent,
-    AmenitiesComponent
+    AmenitiesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
