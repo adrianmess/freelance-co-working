@@ -23,6 +23,7 @@
 // button
 .menu-button {
   // align-self: flex-start;
+  margin-right: 1rem;
 }
 
 .dropdown-menu {
@@ -35,7 +36,7 @@
 #header-label{
   align-self: flex-start;
   position: absolute;
-  color: black;
+  color: white;
   z-index: 100;
   top: .08rem;
   margin-left: 5%;

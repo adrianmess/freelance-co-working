@@ -23,6 +23,9 @@
   margin-top: 3.5rem;
   margin-left: 5rem; }
 
+.menu-button {
+  margin-right: 1rem; }
+
 .dropdown-menu {
   opacity: .9; }
 
@@ -30,7 +33,7 @@
   -ms-flex-item-align: start;
   align-self: flex-start;
   position: absolute;
-  color: black;
+  color: white;
   z-index: 100;
   top: .08rem;
   margin-left: 5%; }
