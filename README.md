@@ -71,21 +71,37 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img src="src/assets/sketches/phone-sketch.jpeg" height="400"/>
 
 ## Setup/Installation Requirements
+#### Pre-requisites
 
-### I. Backend
+### NPM & Node Installation
+* Install Node.js
+  * https://www.npmjs.com/get-npm
 
-Add instructions.
 
-### II. Node & NPM Installs
+  * Install Angularcli
 
-1. Install Node.js on local machine.
-2. Install TypeScript globally: `npm install -g typescript`
-3. Install Angular CLI globally: `npm install -g @angular/cli@1.7.4`
+      $ npm install -g @angular/cli@1.6.5
 
-### III. View Project
+### Clone
+  * Clone this repo to your local machine from: https://github.com/adrianmess/freelance-co-working
 
-Add instructions.
+        $ git clone https://github.com/adrianmess/freelance-co-working
 
+Open **site-rebuild** folder from terminal.
+
+### NPM Installation
+      $ npm install
+
+## Start Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+* The following command will start the server and automatically open the browser.      
+      $ng serve --open
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 ## Known Bugs
 
 - None.
@@ -93,6 +109,10 @@ Add instructions.
 ## Technologies Used
 
 * Angular
+* Node.js
+* Bootstrap 4
+* JQuery
+* Popper JS
 
 ## Development server
 
@@ -106,6 +126,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## License
+
+* GPL
+
+Adrian Messado © 2018
 
 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"><style>
 <!--
