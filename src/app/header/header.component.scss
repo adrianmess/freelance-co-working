@@ -17,9 +17,6 @@
 
 }
 
-
-
-
 // button
 .menu-button {
   // align-self: flex-start;
@@ -29,9 +26,12 @@
 .dropdown-menu {
  opacity: .9;
  // padding: 1rem;
-
 }
 
+.dropdown-menu a li {
+  text-decoration: none;
+  color: black;
+}
 
 #header-label{
   align-self: flex-start;

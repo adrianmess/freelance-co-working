@@ -29,6 +29,10 @@
 .dropdown-menu {
   opacity: .9; }
 
+.dropdown-menu a li {
+  text-decoration: none;
+  color: black; }
+
 #header-label {
   -ms-flex-item-align: start;
   align-self: flex-start;
