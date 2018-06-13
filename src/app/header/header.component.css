@@ -31,7 +31,11 @@
 
 .dropdown-menu a li {
   text-decoration: none;
-  color: black; }
+  color: black;
+  margin-left: .5rem; }
+
+.dropdown-menu a {
+  text-decoration: none; }
 
 #header-label {
   -ms-flex-item-align: start;
