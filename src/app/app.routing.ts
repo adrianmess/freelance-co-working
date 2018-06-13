@@ -6,6 +6,9 @@ import { ContactComponent } from './contact/contact.component';
 import { PlansComponent } from './plans/plans.component';
 import { LoginComponent } from './login/login.component';
 import { StourComponent } from './stour/stour.component';
+import { AmenitiesComponent } from './amenities/amenities.component';
+
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -30,6 +33,10 @@ const appRoutes: Routes = [
   {
     path: 'stour',
     component: StourComponent
+  },
+  {
+    path: 'amenities',
+    component: AmenitiesComponent
   }
 ];
 
