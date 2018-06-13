@@ -1,6 +1,12 @@
 .login-container{
-max-width: 400px;
-margin-left: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.login-container h3 {
+margin-bottom: .7rem;
 }
 
 #login-items{
@@ -13,7 +19,11 @@ margin-left: 45%;
   text-align: center;
 }
 
+#login-items a {
+  margin-right: 1rem;
+}
+
 button {
-  margin-top: .2rem;
+  margin-top: .7rem;
   margin-right: 7rem;
 }
