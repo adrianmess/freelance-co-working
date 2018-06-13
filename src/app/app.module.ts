@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { StourComponent } from './stour/stour.component';
 import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
+import { AmenitiesComponent } from './amenities/amenities.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     StourComponent,
     LoginComponent,
-    ContactComponent
+    ContactComponent,
+    AmenitiesComponent
   ],
   imports: [
     BrowserModule,
