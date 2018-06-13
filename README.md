@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## > Research - Inspire - Brainstorm
+##  Research - Inspire - Brainstorm
 
 * Client Request's
   * "We just finished remodeling our space. We're really proud of it. We want our online presence to mirror our in-person presence, to attract people that would really enjoy working in our environment."
@@ -41,28 +41,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 #### Client Colors
 * <strong><span style="color:green;"> Green </span></strong>
-  * Physical Effects
-    * What happens to your body in the presence of green? Your pituitary gland is stimulated. Your muscles are more relaxed, and your blood histamine levels increase, which leads to a decrease in allergy symptoms and dilated blood vessels, aiding in smoother muscle contractions. In short, green is calming, stress-relieving, and – a bit paradoxically – invigorating. It’s been shown to improve reading ability and creativity.
-  * Symbolism
-    * Green stands for balance, nature, spring, and rebirth. It’s the symbol of prosperity, freshness, and progress. The Green Party in the US is inextricably tied to ecological and progressive causes, and a “greenback” is another term for our paper currency. In Japanese culture, green is associated with eternal life, and it is the sacred color of Islam, representing respect and the prophet Muhammad.
-  * Positive Associations
-    * We associate green with vitality, fresh growth, and wealth.   We generally think of it as a balanced, healthy, and youthful. We use green in design for spaces intended to foster creativity and productivity, and we associate green with progress – think about giving a project the “green light.”
-  * Negative Associations
-    * Someone who feels sick might look “green around the gills,”...
-    * Envy and greed.
+
 
 
 * <strong><span style="color:pink;">Pink / Salmon - love</span></strong>
-  *  Pink is the color of happiness and is sometimes seen as lighthearted.
-  *  Stimulates energy and can increase the blood pressure, respiration, heartbeat, and pulse rate.
-  *  Encourage action and confidence. Reduction in erratic behavior.
 
 #### Possible Colors
   * <strong><span style="color:gold;">Gold (for luxurious)</span></strong>
-    * Green correlates with growth, wealth, and cash, gold with building a fortune, abundance, and positive feelings, and red is a color of success, strength, and good luck.
+
   * <strong><span style="color:silver;">Silver</span></strong>
-    * the metallic refined, distinguished color of riches, has cool properties like gray, but is more fun, lively, and playful. The color silver is associated with meanings of industrial, sleek, high-tech, and modern, as well as ornate, glamourous, graceful, sophisticated, and elegant.
-    * affects the mind and body as a conductor and communicator that aids in public speaking and eloquence. Silver is believed to draw negative energy out of the body and replace it with positive energy.
+
     * Where gold is masculine, silver is considered as feminine energy.
   * Metallic
 
