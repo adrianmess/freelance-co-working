@@ -6,7 +6,7 @@
 
   <!-- -------------Tour With US POP UP------------ -->
 
-  <div id="tour-with-us">
+  <!-- <div id="tour-with-us">
 
     <div class="">
       <ul>
@@ -25,7 +25,7 @@
       </ul>
     </div>
     <button type="button" name="button">Submit</button>
-  </div>
+  </div> -->
 
   <!-- -------------------------------------------------- -->
 
@@ -61,25 +61,21 @@
 
   <div id="amenities-section">
     <div id="amenities-preview">
-      <a href="#">
-        <h3>Amenities</h3>
-        <!-- <div class="preview-icons">
-          <img src="../assets/images/preview/24-hour-access.png" alt="">
-          <img src="../assets/images/preview/conference-rooms.png" alt="">
-          <img src="../assets/images/preview/pets-allowed.png" alt="">
-          <img src="../assets/images/preview/full-bar.png" alt="">
-          <img src="../assets/images/preview/free-wifi.png" alt="">
-          <img src="../assets/images/preview/yoga-classes.png" alt="">
-        </div> -->
-
-        <img src="../../assets/images/preview/amenities-preview.png" alt="">
+      <a href="#" routerLink="amenities" id="amenities-a">
+        <span class="fancy-button-border" id="fancy-button-border">
+          <a routerLink="amenities" id="fancy-button">Amenities</a>
+        </span>
+      <img id="amenities-image" src="../../assets/images/preview/amenities-preview.png" alt="">
       </a>
     </div>
   </div>
 
 
-  <div id="plans-preview-section" id="plans">
-    <h3 id="plans-h3">Plans</h3>
+  <div id="plans-preview-section">
+
+    <span class="fancy-button-border" id="fancy-button-text" id="fancy-button-border-plans">
+      <a routerLink="plans" id="fancy-button">Plans</a>
+    </span>
     <div id="plans-preview-container">
       <div class="plans-preview" id="day-plan-preview">
         <div class="plans-preview-text">
@@ -95,6 +91,8 @@
         <div class="plans-preview-text">
           <p>$40</p>
         </div>
+
+
         <div class="plans-preview-icons">
           <a> Week Pass</a>
         </div>

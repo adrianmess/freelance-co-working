@@ -1,158 +1,29 @@
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-#menu {
-  visibility: hidden; }
+#tour-button, #fancy-button {
+  border-color: #979797;
+  border-width: 4px;
+  border-style: double;
+  border-radius: 0rem;
+  padding: 2px 6px; }
 
-body {
-  margin: 0;
-  padding: 0;
-  /* make it look decent enough */
-  background: #232323;
-  color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif; }
+#amenities-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
-a {
-  text-decoration: none;
-  color: #232323;
-  -webkit-transition: color 0.3s ease;
-  -o-transition: color 0.3s ease;
-  transition: color 0.3s ease; }
+#amenities-image {
+  margin-top: 1rem; }
 
-a:hover {
-  color: tomato; }
+#amenities-preview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white; }
 
-#menuToggle {
-  display: block;
-  position: relative;
-  z-index: 1;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  left: 350px;
-  top: 25px; }
-
-#menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0;
-  /* hide this */
-  z-index: 2;
-  /* and place it over the hamburger */
-  -webkit-touch-callout: none; }
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #cdcdcd;
-  border-radius: 3px;
-  z-index: 1;
-  -webkit-transform-origin: 4px 0px;
-  -ms-transform-origin: 4px 0px;
-  transform-origin: 4px 0px;
-  -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
-
-#menuToggle span:first-child {
-  -webkit-transform-origin: 0% 0%;
-  -ms-transform-origin: 0% 0%;
-  transform-origin: 0% 0%; }
-
-#menuToggle span:nth-last-child(2) {
-  -webkit-transform-origin: 0% 100%;
-  -ms-transform-origin: 0% 100%;
-  transform-origin: 0% 100%; }
-
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span {
-  opacity: 1;
-  -webkit-transform: rotate(45deg) translate(-2px, -1px);
-  -ms-transform: rotate(45deg) translate(-2px, -1px);
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323; }
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-  -ms-transform: rotate(0deg) scale(0.2, 0.2);
-  transform: rotate(0deg) scale(0.2, 0.2); }
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  -webkit-transform: rotate(-45deg) translate(0, -1px);
-  -ms-transform: rotate(-45deg) translate(0, -1px);
-  transform: rotate(-45deg) translate(0, -1px); }
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu {
-  position: absolute;
-  width: 200px;
-  margin: -100px 0 0 -200px;
-  padding: 50px;
-  padding-top: 125px;
-  background: rgba(255, 255, 255, 0.7);
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  -webkit-transform-origin: 0% 0%;
-  -ms-transform-origin: 0% 0%;
-  transform-origin: 0% 0%;
-  -webkit-transform: translate(100%, 0);
-  -ms-transform: translate(100%, 0);
-  transform: translate(100%, 0);
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  -o-transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); }
-
-#menu li {
-  padding: 5px 0;
-  font-size: 12px; }
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul {
-  visibility: visible;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none; }
-
-.container {
+#plans-preview-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,63 +31,7 @@ a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  height: auto; }
-
-button {
-  position: absolute;
-  left: 350px;
-  top: 25px; }
-
-#dropdown {
-  display: none; }
-  #dropdown li {
-    list-style-type: none;
-    text-transform: uppercase; }
-
-@media only screen and (min-width: 500px) {
-  #header {
-    background-image: url(../../assets/images/header-img.png);
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 120px;
-    margin: 5px auto 20px auto; } }
-
-#tour-button {
-  border-style: solid;
-  border-color: #979797;
-  border-width: 1px;
-  padding: 5px 2.5px 5px 2.5px; }
-
-.tour-button-border {
-  border-style: solid;
-  border-color: #979797;
-  border-width: 1px;
-  padding: 7px 2.5px 7px 2.5px;
-  max-width: 159px; }
-
-#tour-with-us {
-  visibility: hidden;
-  position: absolute; }
-
-#amenities-preview {
-  width: auto;
-  height: 180px;
-  text-align: center;
-  color: white; }
-
-#amenities-preview a {
-  background-color: white;
-  width: 100%;
-  height: 100%; }
+  margin-top: 2rem; }
 
 #plans-preview-container {
   max-width: auto;
@@ -236,11 +51,12 @@ button {
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
-    padding-top: 10px; }
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.4) col; }
 
-#plans-h3 {
-  margin-top: 40px;
-  text-align: center; }
+.fancy-button-border {
+  -ms-flex-item-align: center;
+  align-self: center; }
 
 .plans-preview {
   width: 300px;
@@ -249,7 +65,10 @@ button {
   border-width: .5px;
   border-color: gray;
   border-radius: 8px;
-  margin: 10px auto; }
+  margin: 10px auto;
+  -webkit-box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  border: .125rem solid transparent; }
 
 .plans-preview-icons {
   width: 84px;
@@ -258,7 +77,32 @@ button {
   border-width: .5px;
   border-color: gray;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.1); }
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  border: .125rem solid transparent; }
+
+.plans-preview-text {
+  opacity: 100;
+  z-index: 10;
+  width: 84px;
+  height: 84px;
+  border-style: solid;
+  border-width: .5px;
+  border-color: gray;
+  border-radius: 8px;
+  padding-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  border: .125rem solid transparent;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: white; }
 
 #day-plan-preview {
   background-image: url(../../assets/images/plans-preview/mirrors-green.png);
@@ -275,24 +119,6 @@ button {
   background-size: 100%;
   color: white;
   z-index: 0; }
-
-.plans-preview-text {
-  opacity: 100;
-  z-index: 10;
-  width: 84px;
-  height: 84px;
-  border-style: solid;
-  border-width: .5px;
-  border-color: gray;
-  border-radius: 8px;
-  padding-top: 20px;
-  background-color: rgba(255, 255, 255, 0.1);
-  text-align: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center; }
 
 #home-container {
   display: -webkit-box;
@@ -311,7 +137,6 @@ button {
   height: 120%; }
 
 .tour-button-border {
-  width: 159px;
   z-index: 0; }
 
 .preview-icons {
@@ -322,6 +147,16 @@ button {
 
 #home-container > div, .tour-button-border {
   margin-bottom: 20px; }
+
+#carousel-section {
+  background-size: contain;
+  height: 500px;
+  width: auto; }
+
+#carouselExampleIndicators {
+  max-height: 95%;
+  max-width: 80%;
+  margin-left: 10%; }
 
 @media only screen and (max-width: 500px) {
   .img-fluid {
@@ -338,4 +173,14 @@ button {
 
 @media only screen and (min-width: 800px) {
   #carousel-section {
-    max-height: 600px; } }
+    max-height: 600px; }
+  #plans-preview-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    min-width: 975px;
+    max-width: 1000px; } }
