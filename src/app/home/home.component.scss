@@ -90,7 +90,6 @@ align-self: center;
   border-radius: 8px;
   margin: 10px auto;
   box-shadow: 8px 10px 20px 0px rgba(46,61,73,.15);
-  border: .125rem solid transparent;
 }
 
 
@@ -186,8 +185,11 @@ align-self: center;
 
 #carousel-section {
 // background-image: url(../../assets/images/carousel/gold-p1.jpg);
-background-size: contain;
-height: 500px;
+background-size: cover ;
+min-width: 500px;
+max-width: 500px;
+min-height: 500px;
+max-height: 500px;
 width: auto;
 }
 
@@ -205,8 +207,8 @@ width: auto;
   }
   .img-fluid {
     // height: 400px;
-    min-width: 90%;
-    max-width: 90%;
+    // min-width: 90%;
+    // max-width: 90%;
     background: no-repeat scroll center top transparent;
   }
 }
@@ -216,15 +218,20 @@ width: auto;
     max-height: 600px;
   }
   .img-fluid {
-    max-height: 500px;
-    min-width: 90%;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 300px;
+    // min-width: 90%;
   }
 }
 
 @media only screen and (min-width:800px) {
   #carousel-section {
-    // min-height: 600px;
-    max-height: 600px;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 400px;
   }
   #plans-preview-container {
       display: flex;
@@ -232,7 +239,7 @@ width: auto;
        justify-content: space-around;
        align-content: space-around;
        min-width: 975px;
-       max-width: 1000px;
+       // max-width: 1000px;
   }
 
 

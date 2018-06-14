@@ -70,8 +70,7 @@
   border-radius: 8px;
   margin: 10px auto;
   -webkit-box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
-  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
-  border: .125rem solid transparent; }
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15); }
 
 .plans-preview-icons {
   width: 84px;
@@ -152,8 +151,11 @@
   margin-bottom: 20px; }
 
 #carousel-section {
-  background-size: contain;
-  height: 500px;
+  background-size: cover;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 500px;
+  max-height: 500px;
   width: auto; }
 
 #carouselExampleIndicators {
@@ -163,20 +165,23 @@
 
 @media only screen and (max-width: 500px) {
   .img-fluid {
-    min-width: 90%;
-    max-width: 90%;
     background: no-repeat scroll center top transparent; } }
 
 @media only screen and (min-width: 500px) {
   #carousel-section {
     max-height: 600px; }
   .img-fluid {
-    max-height: 500px;
-    min-width: 90%; } }
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 300px;
+    max-height: 300px; } }
 
 @media only screen and (min-width: 800px) {
   #carousel-section {
-    max-height: 600px; }
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 400px;
+    max-height: 400px; }
   #plans-preview-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -185,5 +190,4 @@
     justify-content: space-around;
     -ms-flex-line-pack: distribute;
     align-content: space-around;
-    min-width: 975px;
-    max-width: 1000px; } }
+    min-width: 975px; } }
