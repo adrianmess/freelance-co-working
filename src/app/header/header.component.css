@@ -63,6 +63,9 @@
   display: inline-flex;
   list-style-type: none; }
 
+#header-links ul:nth-child(1) {
+  margin-top: .9rem; }
+
 #header-links ul li {
   margin: auto 1rem; }
 
