@@ -14,7 +14,10 @@
   align-items: center;
   width: 100%;
   height: 5rem;
-  background-color: #7ba49c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4d9787), color-stop(#5a9a8c), color-stop(#669e91), color-stop(#71a196), to(#7ca49b));
+  background-image: -webkit-linear-gradient(top, #4d9787, #5a9a8c, #669e91, #71a196, #7ca49b);
+  background-image: -o-linear-gradient(top, #4d9787, #5a9a8c, #669e91, #71a196, #7ca49b);
+  background-image: linear-gradient(to bottom, #4d9787, #5a9a8c, #669e91, #71a196, #7ca49b);
   margin-bottom: 2rem; }
 
 #header-logo {
