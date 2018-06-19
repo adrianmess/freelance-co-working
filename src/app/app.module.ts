@@ -10,7 +10,6 @@ import { PlansComponent } from './plans/plans.component';
 import { AboutComponent } from './about/about.component';
 import { StourComponent } from './stour/stour.component';
 import { LoginComponent } from './login/login.component';
-import { ContactComponent } from './contact/contact.component';
 import { AmenitiesComponent } from './amenities/amenities.component';
 import { GalleryComponent } from './gallery/gallery.component';
 
@@ -25,7 +24,6 @@ import { GalleryComponent } from './gallery/gallery.component';
     AboutComponent,
     StourComponent,
     LoginComponent,
-    ContactComponent,
     AmenitiesComponent,
     GalleryComponent
   ],
