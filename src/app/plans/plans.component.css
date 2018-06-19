@@ -34,11 +34,12 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 2rem; }
+  margin-top: 4rem; }
 
 #plans-preview-container {
   max-width: auto;
-  display: block; }
+  display: block;
+  margin-top: 2rem; }
   #plans-preview-container .plans-preview {
     display: -webkit-box;
     display: -ms-flexbox;
