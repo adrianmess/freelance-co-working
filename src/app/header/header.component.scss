@@ -10,11 +10,10 @@
   margin-bottom: 2rem;
 };
 
-.header-container img {
+#header-logo {
   align-self: center;
   margin-top: 3.5rem;
   margin-left: 5rem;
-
 }
 
 // button
@@ -58,17 +57,38 @@
 }
 
 #header-links{
-  text-decoration: none;
   display: none;
 }
 
-@media only screen and (min-width: 950px){
+#header-links ul{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+#header-links ul li {
+margin: auto 1rem;
+}
+
+#header-links ul li a{
+color: white;
+}
+
+
+@media only screen and (min-width: 1124px){
   .btn-group{
     display: none;
   }
   #header-links {
     display: initial;
   }
+
+  #header-logo {
+    align-self: center;
+    margin-top: 3.5rem;
+    margin-left: 32rem;
+  }
+
+
 }
 // @media only screen and (min-width: 500px) {
 //   #header {
