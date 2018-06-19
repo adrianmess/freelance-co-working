@@ -20,11 +20,11 @@ const appRoutes: Routes = [
   },
   {
     path: 'contact',
-    component: AboutComponent
+    component: ContactComponent
   },
   {
     path: 'plans',
-    component: AboutComponent
+    component: PlansComponent
   },
   {
     path: 'login',
