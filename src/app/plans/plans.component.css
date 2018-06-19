@@ -164,13 +164,7 @@
   max-width: 80%;
   margin-left: 10%; }
 
-@media only screen and (max-width: 500px) {
-  .img-fluid {
-    background: no-repeat scroll center top transparent; } }
-
 @media only screen and (min-width: 500px) {
-  #carousel-section {
-    max-height: 600px; }
   .img-fluid {
     min-width: 500px;
     max-width: 500px;
