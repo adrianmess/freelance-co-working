@@ -200,24 +200,9 @@ width: auto;
   margin-left: 10%;
 }
 
-@media only screen and (max-width:500px) {
-  #carousel-section {
-    // min-height: 400px;
-    // max-height: 600px;
 
-  }
-  .img-fluid {
-    // height: 400px;
-    // min-width: 90%;
-    // max-width: 90%;
-    background: no-repeat scroll center top transparent;
-  }
-}
 @media only screen and (min-width:500px) {
-  #carousel-section {
-    // min-height: 400px;
-    max-height: 600px;
-  }
+
   .img-fluid {
     min-width: 500px;
     max-width: 500px;
