@@ -26,7 +26,16 @@ img {
   height: 40px;
   width: 40px; }
 
+#contact-info {
+  float: right;
+  margin-right: 2rem; }
+
 #contact-info p {
   line-height: .1rem;
   margin-top: 2rem;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  color: white; }
+
+#contact-info-bold {
+  font-weight: bold;
+  margin-right: .5rem; }

@@ -29,9 +29,19 @@ background-image: linear-gradient(to top, #4d9787, #5a9a8c, #669e91, #71a196, #7
 img{
   @include social-icon;
 }
+#contact-info {
+ float: right;
+ margin-right: 2rem;
+}
 
 #contact-info p {
   line-height: .1rem;
   margin-top: 2rem;
   margin-left: 2rem;
+  color: white;
+}
+
+#contact-info-bold {
+  font-weight: bold;
+  margin-right: .5rem;
 }
