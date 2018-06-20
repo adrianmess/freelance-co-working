@@ -59,7 +59,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Ran accross love child social, which appeared to be the client that supplied the images.
 * I started designing my site largely off love child social's site but realized i was realying to much on their designs instead of coming up with my own idea's and creating and using my ideas.
   * after realizing to much of my site was directly influenced from Love Child Social's site i attempted to redesign my site
-* Ended up trying to create a modern, somewhat minimalist feel. 
+* Ended up trying to create a modern, somewhat minimalist feel.
 
 ## User Story
 * As a user i want to be able to navigate using links in HeaderComponent
@@ -78,6 +78,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Use @media queries to hide/show menu button on header
 * Use flex to create auto adjusting grid in gallery
 * use scss and mixins to make DRY code.
+* Use Prepros app to automatically compile scss to css
 <br>
 <img src="/src/assets/images/README/header.gif">
 <br>
@@ -133,6 +134,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Bootstrap 4
 * JQuery
 * Popper JS
+* SCSS 
 * Prepros - scss to css compiler
 
 ## Development server
