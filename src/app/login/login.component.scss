@@ -3,11 +3,11 @@
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
+  h3 {
+  margin-bottom: .7rem;
+  }
 }
 
-.login-container h3 {
-margin-bottom: .7rem;
-}
 
 #login-items{
   display: flex;
@@ -17,13 +17,11 @@ margin-bottom: .7rem;
   align-content: center;
   justify-content: center;
   text-align: center;
-}
-
-#login-items a {
-  margin-right: 1rem;
-}
-
-button {
-  margin-top: .7rem;
-  margin-right: 7rem;
+  a {
+   margin-right: 1rem;
+   button {
+     margin-top: .7rem;
+     margin-right: 7rem;
+   }
+ }
 }

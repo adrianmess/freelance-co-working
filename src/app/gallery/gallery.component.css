@@ -18,17 +18,15 @@ h3 {
   justify-content: center;
   margin-left: 2rem;
   margin-right: 2rem; }
-
-.column {
-  -ms-flex: 25%;
-  -webkit-box-flex: 25%;
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 .4rem; }
-
-.column img {
-  margin-top: .8rem;
-  vertical-align: middle; }
+  .row div {
+    -ms-flex: 25%;
+    -webkit-box-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 .4rem; }
+    .row div img {
+      margin-top: .8rem;
+      vertical-align: middle; }
 
 @media screen and (max-width: 800px) {
   .column {

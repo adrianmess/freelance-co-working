@@ -1,22 +1,18 @@
 .about-container{
   max-width: 1000px;
-}
-
-.info-cards-container {
-  display:flex;
-  flex-wrap: wrap;
-  
-}
-
-h3 {
-  width: 100%;
-text-align: center;
-   display: block;
-  flex-wrap:nowrap;
-  display: inline-block;
-  font-weight: 300;
-}
-
-.about-info-cards{
-  margin-bottom: 5%;
+  h3 {
+    width: 100%;
+    text-align: center;
+    display: block;
+    flex-wrap:nowrap;
+    display: inline-block;
+    font-weight: 300;
+  }
+  .info-cards-container {
+    display:flex;
+    flex-wrap: wrap;
+    .about-info-cards{
+      margin-bottom: 5%;
+    }
+  }
 }

@@ -17,19 +17,17 @@ h3 {
     justify-content: center;
     margin-left: 2rem;
     margin-right: 2rem;
+    div {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 .4rem;
+        img {
+            margin-top: .8rem;
+            vertical-align: middle;
+        }
+    }
 
-}
-
-.column {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 .4rem;
-}
-
-.column img {
-    margin-top: .8rem;
-    vertical-align: middle;
 }
 
 @media screen and (max-width: 800px) {
@@ -39,7 +37,6 @@ h3 {
         max-width: 50%;
     }
 }
-
 
 @media screen and (max-width: 600px) {
     .column {

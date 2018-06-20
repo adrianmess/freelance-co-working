@@ -1,21 +1,18 @@
 .about-container {
   max-width: 1000px; }
-
-.info-cards-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-
-h3 {
-  width: 100%;
-  text-align: center;
-  display: block;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  display: inline-block;
-  font-weight: 300; }
-
-.about-info-cards {
-  margin-bottom: 5%; }
+  .about-container h3 {
+    width: 100%;
+    text-align: center;
+    display: block;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    display: inline-block;
+    font-weight: 300; }
+  .about-container .info-cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .about-container .info-cards-container .about-info-cards {
+      margin-bottom: 5%; }

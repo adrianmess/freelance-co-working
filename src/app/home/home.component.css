@@ -89,11 +89,11 @@
   z-index: 10;
   width: 84px;
   height: 84px;
+  padding-top: 2rem;
   border-style: solid;
   border-width: .5px;
   border-color: gray;
   border-radius: 8px;
-  padding-top: 2rem;
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
   box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
@@ -147,18 +147,15 @@
 #home-container > div, .tour-button-border {
   margin-bottom: 20px;
   z-index: 0; }
-
-#carousel-section {
-  background-size: cover;
-  width: auto; }
-
-#carouselExampleIndicators {
-  max-height: 95%;
-  max-width: 80%;
-  margin-left: 10%; }
-
-.img-fluid {
-  margin: 0 auto; }
+  #home-container > div #carousel-section, .tour-button-border #carousel-section {
+    background-size: cover;
+    width: auto; }
+  #home-container > div #carouselExampleIndicators, .tour-button-border #carouselExampleIndicators {
+    max-height: 95%;
+    max-width: 80%;
+    margin-left: 10%; }
+  #home-container > div .img-fluid, .tour-button-border .img-fluid {
+    margin: 0 auto; }
 
 @media only screen and (min-width: 500px) {
   .img-fluid {
