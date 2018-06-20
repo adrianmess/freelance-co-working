@@ -1,16 +1,14 @@
 #footer {
   display: flex;
   display:inline-block;
-background-image: linear-gradient(to top, #4d9787, #5a9a8c, #669e91, #71a196, #7ca49b);
-
+  background-image: linear-gradient(to top, #4d9787, #5a9a8c, #669e91, #71a196, #7ca49b);
   background-repeat: no-repeat;
   width: 100%;
   height: 100px;
-  margin-top: 20rem;
   position:fixed;
-   bottom: 0;
-   display: block;
-   z-index: 100;
+  bottom: 0;
+  display: block;
+  z-index: 100;
 }
 
 
@@ -31,8 +29,8 @@ img{
   @include social-icon;
 }
 #contact-info {
- float: right;
- margin-right: 2rem;
+  float: right;
+  margin-right: 2rem;
 }
 
 #contact-info p {
