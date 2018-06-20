@@ -34,11 +34,12 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 2rem; }
+  margin-top: 4rem; }
 
 #plans-preview-container {
   max-width: auto;
-  display: block; }
+  display: block;
+  margin-top: 2rem; }
   #plans-preview-container .plans-preview {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,8 +51,7 @@
     align-items: center; }
   #plans-preview-container .plans-preview-icons {
     font-family: 'Raleway', sans-serif;
-    font-weight: lighter;
-    font-size: 20px;
+    font-size: 20px bolder;
     font-weight: bolder;
     text-align: center;
     padding-top: 10px;
@@ -138,9 +138,6 @@
   margin: 0 0 20px 0;
   height: 120%; }
 
-.tour-button-border {
-  z-index: 0; }
-
 .preview-icons {
   display: block; }
 
@@ -148,14 +145,11 @@
   margin-bottom: 10%; }
 
 #home-container > div, .tour-button-border {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  z-index: 0; }
 
 #carousel-section {
   background-size: cover;
-  min-width: 500px;
-  max-width: 500px;
-  min-height: 500px;
-  max-height: 500px;
   width: auto; }
 
 #carouselExampleIndicators {
@@ -163,25 +157,18 @@
   max-width: 80%;
   margin-left: 10%; }
 
-@media only screen and (max-width: 500px) {
-  .img-fluid {
-    background: no-repeat scroll center top transparent; } }
+.img-fluid {
+  margin: 0 auto; }
 
 @media only screen and (min-width: 500px) {
-  #carousel-section {
-    max-height: 600px; }
   .img-fluid {
-    min-width: 500px;
-    max-width: 500px;
-    min-height: 300px;
-    max-height: 300px; } }
+    max-height: 300px;
+    width: 500px; } }
 
 @media only screen and (min-width: 800px) {
   #carousel-section {
-    min-width: 600px;
-    max-width: 600px;
-    min-height: 400px;
-    max-height: 400px; }
+    max-height: 400px;
+    width: 700px; }
   #plans-preview-container {
     display: -webkit-box;
     display: -ms-flexbox;
