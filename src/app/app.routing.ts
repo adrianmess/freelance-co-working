@@ -6,7 +6,7 @@ import { PlansComponent } from './plans/plans.component';
 import { LoginComponent } from './login/login.component';
 import { StourComponent } from './stour/stour.component';
 import { AmenitiesComponent } from './amenities/amenities.component';
-
+import { GalleryComponent } from './gallery/gallery.component';
 
 const appRoutes: Routes = [
   {
@@ -32,6 +32,10 @@ const appRoutes: Routes = [
   {
     path: 'amenities',
     component: AmenitiesComponent
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent
   }
 ];
 
