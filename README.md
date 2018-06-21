@@ -53,21 +53,38 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 
+## Research
+
+* Referenced the top 30 co working spaces for ideas
+* Ran accross love child social, which appeared to be the client that supplied the images.
+* I started designing my site largely off love child social's site but realized i was realying to much on their designs instead of coming up with my own idea's and creating and using my ideas.
+  * after realizing to much of my site was directly influenced from Love Child Social's site i attempted to redesign my site
+* Ended up trying to create a modern, somewhat minimalist feel. 
 
 ## User Story
 * As a user i want to be able to navigate using links in HeaderComponent
 * As a user i want the images to and items to resize based on the size of the screen.
-
+* As a user I want to be able to set a tour date
+* As a user I want to be able to sign-in
+* As a user i want to be able to see Gallery of the co-working spaces
+  * As a user i want the gallery to automatically adjust according to the web page space.
+* As a user I want to be able to contact them via social media
+* As a user I want to see their hours of operation
+* As a user I want to see the available plans without have to search for them.   
 
 ## Specifications
 
-* Use @media queries to plans and
-* Use @media queries to hide/show menu button on  header
-  * CSS Grid used for 'Human's Watchlist' section.
-  * Flex Wrap used for 'Top Picks For Human' section.
-  * Flex Wrap used for 'Hulu Originals' section.
-  * CSS Grid used for 'TV's Funniest Families' section.
-  * Flex Used for Footer
+* Use @media queries to auto resize plans
+* Use @media queries to hide/show menu button on header
+* Use flex to create auto adjusting grid in gallery
+* use scss and mixins to make DRY code.
+<br>
+<img src="/src/assets/images/README/header.gif">
+<br>
+<img src="/src/assets/images/README/plans.gif">
+<br>
+<img src="/src/assets/images/README/gallery.gif">
+
 
 
 ## Diagram
